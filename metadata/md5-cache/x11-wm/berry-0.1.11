@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/libxcb x11-libs/xcb-util x11-libs/xcb-util-wm
+DESCRIPTION=A byte-sized window manager written in C
+EAPI=7
+HOMEPAGE=https://berrywm.org
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 ~x86
+LICENSE=BSD-2
+RDEPEND=x11-libs/libxcb x11-libs/xcb-util x11-libs/xcb-util-wm x11-misc/sxhkd
+SLOT=0
+SRC_URI=https://github.com/JLErvin/berry/archive/0.1.11.tar.gz -> berry-0.1.11.tar.gz
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_md5_=da3ca4da22bba6cd4dd9c5a74de3aade
